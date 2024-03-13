@@ -1,19 +1,11 @@
-# Генетический алгоритм
-Тренирововчная работа на построение генетического алгоритма для выбора наилучшего индивида.
-* Реализована задача OneMax, где мы имеем список определенной длины, состоящий из нулей и единиц
+# Генетический алгоритм / Genetic algorithm
 
-Цель: Cостояла в том, чтобы реализовать генетический алгоритм для решения задачи OneMax на Python. OneMax - это классическая задача оптимизации, где необходимо найти битовую строку наибольшей длины, состоящую только из единиц.
+Цель: построение генетического алгоритма для выбора наилучшего индивида.
+Результат: Реализована задача OneMax, где мы имеем список определенной длины, состоящий из нулей и единиц. OneMax - это классическая задача оптимизации, где необходимо найти битовую строку наибольшей длины, состоящую только из единиц.
+Также был написан код, который использовал бы генетический алгоритм для нахождения оптимальной битовой строки, приближенной к строке, состоящей из всех единиц.
+## График приспособлености поколений / Generational fitness chart
+![image](https://github.com/ArtemAvgutin/Genetic_algorithm/assets/131138862/01aefe2e-3039-4e65-a66b-211b990ef9bb)
 
-Задача: Pаключалась в написании кода, который использовал бы генетический алгоритм для нахождения оптимальной битовой строки, приближенной к строке, состоящей из всех единиц.
-
-Что получилось: После реализации генетического алгоритма на Python, мне удалось успешно найти приближенное решение для задачи OneMax. Алгоритм прошел несколько поколений и смог приблизиться к оптимальному результату в соответствии с заданными критериями оценки.
-
-# Genetic algorithm
-Training work on building a genetic algorithm for selecting the best individual.
-* Implemented the OneMax task, where we have a list of a certain length consisting of zeros and ones
-
-Goal: The goal was to implement a genetic algorithm to solve the OneMax problem in Python. OneMax is a classic optimization problem where you need to find the longest bit string that contains only ones.
-
-Task: Involved in writing code that would use a genetic algorithm to find the optimal bit string approximating a string consisting of all ones.
-
-What happened: After implementing the genetic algorithm in Python, I was able to successfully find an approximate solution for the OneMax problem. The algorithm went through several generations and was able to get closer to the optimal result in accordance with the specified evaluation criteria.
+Goal: building a genetic algorithm to select the best individual.
+Result: The OneMax task has been implemented, where we have a list of a certain length consisting of zeros and ones. OneMax is a classic optimization problem where you need to find the longest bit string that contains only ones.
+Code was also written that would use a genetic algorithm to find an optimal bit string approximating an all-1s string.
